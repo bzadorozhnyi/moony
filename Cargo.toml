@@ -1,0 +1,11 @@
+[package]
+name = "moony"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.6"
+palette = { version = "0.7.6", features = ["named"] }
+kmeans_colors = { version = "0.7.0", features = ["palette_color"] }
+rayon = "1.10.0"
+clap = { version = "=4.5.39", features = ["derive"] }
